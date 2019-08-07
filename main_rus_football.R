@@ -8,8 +8,8 @@ library(raster)
 library(rgdal)
 
 # Загрузка данных
-table1 <- fread("F:/dataset/rus_football/general_table_rus_football.csv")
-table2 <- fread("F:/dataset/rus_football/rus_football_team.csv")
+table1 <- fread("./data/general_table_rus_football.csv")
+table2 <- fread("./data/rus_football_team.csv")
 
 # Объединение таблиц
 
